@@ -8,7 +8,7 @@ public class MoneyTransferBetweenAccountsSteps {
 	    
 	}
 
-	@Given("navigates to the transfer money page")
+	@Given("navigates to the transfer money page") 
 	public void navigates_to_the_transfer_money_page() {
 	    
 	}
