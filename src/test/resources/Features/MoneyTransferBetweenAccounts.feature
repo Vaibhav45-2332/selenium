@@ -6,8 +6,8 @@
        When user selects accounts of both "<sender>" and "<reciver>"
        And enter valid "<amount>"
        Then confirms transaction
-       Then specified amount should be deducted form sender's account
-       And creadited to the reciver's account
+       Then specified amount should be deducted form senders account
+       And creadited to the recivers account
        And  money transfer message should displayed
 
    Examples:
