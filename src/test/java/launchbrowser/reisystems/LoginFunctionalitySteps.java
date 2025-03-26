@@ -37,12 +37,6 @@ public class LoginFunctionalitySteps {
 
 	@Then("the user should see {string}")
 	public void the_user_should_see(String string) {
-		WebElement username = null;
-		WebElement password = null;
-		if(username == validusername && password == validpassword) {
-			System.out.println(string);
-		} else {
-			System.out.println(string);
-		}
+
 	}
 }
