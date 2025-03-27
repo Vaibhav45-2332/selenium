@@ -1,5 +1,6 @@
- Feature: User Login  
+ Feature: User Login
 
+  @test
   Scenario Outline: Login with credentials  
     Given the user is on the login page  
     When the user enters username "<username>" and password "<password>"  
