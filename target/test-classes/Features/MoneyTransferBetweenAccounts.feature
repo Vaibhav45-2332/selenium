@@ -7,7 +7,7 @@
        And enter valid "<amount>"
        Then confirms transaction
        Then specified amount should be deducted form senders account
-       And   credited to the receivers account
+       And  credited to the receivers account
        And  money transfer message should displayed
 
    Examples:
