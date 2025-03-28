@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class IframeAssignment {
 	public static void main(String[] args) throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "E:\\Automation\\chromedriver-win64\\chromedriver.exe");
+		System.setProperty("web-driver.chrome.driver", "E:\\Automation\\chromedriver-win64\\chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
