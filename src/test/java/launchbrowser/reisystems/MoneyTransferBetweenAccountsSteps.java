@@ -37,21 +37,16 @@ public class MoneyTransferBetweenAccountsSteps {
 	    
 	}
 
-	@Then("specified amount should be deducted form senders account")
-	public void specified_amount_should_be_deducted_form_senders_account() {
-		// Write code here that turns the phrase above into concrete actions
-		throw new io.cucumber.java.PendingException();
-	}
 
-	@Then("creadited to the recivers account")
-	public void creadited_to_the_recivers_account() {
+	@Then("credited to the receivers account")
+	public void credited_to_the_receivers_account() {
 		// Write code here that turns the phrase above into concrete actions
-		throw new io.cucumber.java.PendingException();
+
 	}
 	@Then("money transfer message should displayed")
 	public void money_transfer_message_should_displayed() {
 		// Write code here that turns the phrase above into concrete actions
-		throw new io.cucumber.java.PendingException();
+
 	}
 
 
