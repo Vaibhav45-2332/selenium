@@ -1,5 +1,6 @@
 package launchbrowser.reisystems;
 
+import java.time.Duration;
 import java.util.Iterator;
 import java.util.Set;
 import org.openqa.selenium.By;
@@ -17,7 +18,7 @@ public class WindowHandlingAssignment {
         driver.manage().window().maximize();
 
        
-        WebDriverWait wait = new WebDriverWait(driver, 10);
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
          
         driver.get("https://test8-internal--ktorgn.sandbox.my.salesforce.com/?ec=302&startURL=%2F005%3Ffcf%3D00B4T000003axei%26isUserEntityOverride%3D1%26setupid%3DManageUsers");
