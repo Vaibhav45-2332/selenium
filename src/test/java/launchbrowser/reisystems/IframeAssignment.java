@@ -1,5 +1,6 @@
 //Login as Internal user-Navigate to announcement tab-Navigate to published announcement table-Click on top right button
 //New-Use Iframe concept write code for switching to modal window.
+
 package launchbrowser.reisystems;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -7,6 +8,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
+
 
 public class IframeAssignment {
 	public static void main(String[] args) throws InterruptedException {
@@ -24,7 +28,7 @@ public class IframeAssignment {
 				.sendKeys("Password@12345");
 		driver.findElement(By.xpath("//input[@class='button r4 wide primary']")).click();
 		driver.get("https://test8-internal--ktorgn--c.sandbox.vf.force.com/apex/PhaseView?t=FundingOpportunity");
-		WebDriverWait wait = new WebDriverWait(driver, 10);
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		WebElement newButton = wait.until(ExpectedConditions
 				.elementToBeClickable(By.xpath("//span//button[@class='secondaryBtn ng-scope ng-binding']")));
 		newButton.click();
