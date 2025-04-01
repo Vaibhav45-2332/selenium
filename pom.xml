@@ -5,8 +5,8 @@
 	<groupId>launchchromebrowser</groupId>
 	<artifactId>reisystems</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<dependencies>
 
+	<dependencies>
 		<!--
       https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
@@ -20,14 +20,12 @@
 			<artifactId>htmlunit-driver</artifactId>
 			<version>4.13.0</version>
 		</dependency>
-
 		<!-- Cucumber Java -->
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-java</artifactId>
 			<version>7.13.0</version>
 		</dependency>
-
 		<!-- Cucumber JUnit -->
 		<dependency>
 			<groupId>io.cucumber</groupId>
@@ -35,8 +33,6 @@
 			<version>7.13.0</version>
 			<scope>test</scope>
 		</dependency>
-
-
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -53,9 +49,6 @@
 			<artifactId>commons-lang3</artifactId>
 			<version>3.12.0</version>
 		</dependency>
-
-
-
 	</dependencies>
 	<properties>
 		<maven.compiler.source>11</maven.compiler.source>
